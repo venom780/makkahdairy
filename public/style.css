@@ -1,0 +1,191 @@
+html{
+    scroll-behavior: smooth;
+    scrollbar-shadow-color: black;
+}
+.navbar{
+    background-color: rgb(53, 101, 189) !important; 
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color: whitesmoke !important;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+    position: relative !important;
+    left: 3% !important;
+}
+.navbar .navbar-nav .active{
+    background-color: cornflowerblue;
+    border-radius: 10px;  
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    background-color: rgb(53, 101, 189);
+    border-radius: 10px; 
+    border-color: whitesmoke;
+}
+.navbar .navbar-nav .dropdown .dropdown-item{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.navbar .navbar-nav .dropdown .dropdown-item:hover{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+}
+.para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(53, 101, 189);
+    color: cornsilk;
+}
+.bottom{
+    background-color: rgb(31, 88, 194);
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+.small ul li a{
+    position: relative;
+    display: block;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+    height: 10px; 
+    width: 15px;
+    transition: .6s;
+}
+.small ul{
+    display: flex; 
+}
+.small ul li{
+    list-style: none;
+    margin: 0 13px;
+}
+.small ul li .fa{
+    font-size: 20px;
+    line-height: 30px;
+    transition: .6s;
+    color: white;
+}
+.small ul li a:hover{
+    transform: translate(-10px,-10px);
+
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;   
+}
+}
+.intro{
+    margin: 50px;
+    padding: 10px;
+    width: 90%;
+    font-weight: bold;
+}
+.head{
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+    font-weight: bold;
+    font-size: medium;   
+}
+.introduction{
+    background-image: url(images.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+.fa-truck,.fa-clock-o,.fa-check{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: rgb(53, 101, 189);
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .intro{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .head{
+        width: 100%;
+    }
+}
+.heading1{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(53, 101, 189);
+    text-decoration: underline double green;
+}
+.card{
+    width: 250px !important;
+    height: 250px !important;
+    margin-top: 10px;
+    
+}
+.card-text{
+    font-weight: bold;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.heading2{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(53, 101, 189);
+    text-decoration: underline double green;
+
+}
+.scrollToTop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    background:rgb(0,0,0,0.3);
+    border: none;
+    cursor: pointer; 
+    border-radius: 10px;
+}
